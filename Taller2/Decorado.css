@@ -1,0 +1,60 @@
+body{
+    background-image: url(Imágenes/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+.ubicacion{
+    width: 37%;
+    height: 50%;
+    position: absolute ;
+    top: 20%;
+    left: 25%;
+}
+.ubicacion .contenido{
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 60px;
+}
+.ubicacion .detalle{
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.recuadro{
+    width: 400px;
+    position:absolute;
+  		left: 1000px;
+  		top:0px;
+    background: #101d52;
+    padding: 30px;
+    margin: auto;
+    margin-top: 1px;
+    border-radius: 10px;
+    font-family: "calibri";
+    color: rgb(255, 255, 255);
+}
+.recuadroenviado{
+    width: 400px;
+    position:absolute;
+  		left: 1000px;
+  		top:0px;
+    background: #101d52;
+    padding: 30px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 10px;
+    font-family: "calibri";
+    color: rgb(255, 255, 255);
+}
+.recuadroenviado .enviado{
+    text-align: center;
+}
+.recuadroenviado .textoenvio{
+    text-align: center;
+}
+.recuadro .campo{
+    font-size: 16px;
+}

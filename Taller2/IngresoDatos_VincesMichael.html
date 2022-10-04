@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registro</title>
+        <link rel="stylesheet" href="Decorado.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="ubicacion" >
+            <p ><strong class="contenido">SKALEMI COMPANY</strong><br>
+                <hr size="5" color="black">
+                <p align="right" class="detalle">Registro de clientes al Sistema</p>
+            </p>             
+        </div>
+        <div class="recuadro">
+            <form action="">
+                <h2>Rellene los siguientes campos</h2>
+                <hr>
+                <strong> Datos Personales</strong>
+                <div>
+                    <label for="nombre">Nombres:</label>
+                    <input class="campo" type="text" id="nombre">
+                </div>               
+                <br>
+                <div class="campo">
+                    <label for="apellido">Apellidos:</label>
+                    <input  type="text" id="apellido">
+                    <br>
+                </div>        
+                <br>
+                <div class="campo">
+                    <label for="dni">Cédula o Pasaporte:</label>
+                    <input class="campo" type="text" id="dni" onkeypress='return event.charCode >= 48 && event.charCode <= 57'/>
+                </div>
+                <br>
+                <div>
+                    Género:
+                    <select name="genero">
+                        <option>Masculino</option>
+                        <option>Femenino</option>
+                        <option>Prefiero no decirlo</option>
+                    </select>
+                    </div>                   
+                    <br>       
+                    <div class="campo">
+                        <label for="fecha">Fecha de Nacimiento:</label>
+                        <input class="campo" type="date" id="fecha">
+                    </div>
+                <hr>
+                <strong> Contacto</strong>
+                <div class="campo">
+                    <label for="email">Correo Electrónico:</label>
+                    <input  type="text" id="email">
+                </div>
+                <br>                
+                <div class="campo">
+                    <label for="tele">Celular:</label>
+                    <input class="campo" type="text" id="tel" onkeypress='return event.charCode >= 48 && event.charCode <= 57'/>
+                </div>       
+                <div>
+                    <hr>
+                    <strong> Dirección</strong><br>
+                    <div class="campo">
+                        <label for="calle1">Calle 1:</label>
+                        <input class="campo" type="text" id="calle1">                  
+                    </div>
+                    <br>
+                    <div class="campo">
+                        <label for="calle2">Calle 2:</label>
+                        <input class="campo" type="text" id="calle2">
+                    </div>
+                    <br>
+                    <div class="campo">                          
+                        <label for="refe">Referencia:</label>
+                        <input class="campo" type="text" id="refe">
+                    </div>
+                    <hr>
+                </div>
+                <div class="campo">
+                    <label for="est"><strong>Estado Civil</strong></label> <br>
+                    <input class="campo" type="radio" id="soltero" name="Estados" value="soltero">
+                    <label for="est1">Soltero</label><br>
+                    <input class="campo" type="radio" id="casado" name="Estados" value="casado">
+                    <label for="est2">Casado</label><br>
+                    <input class="campo" type="radio" id="divorciado" name="Estados" value="divorciado">
+                    <label for="est3">Divorciado</label>
+                </div>
+                <hr>
+            </form>       
+            <br>               
+            <div>
+                <a href="RegistroEnviado.html"><input type="submit" value="Enviar" /></a>
+            </div>
+        </div> 
+    </body>
+</html>

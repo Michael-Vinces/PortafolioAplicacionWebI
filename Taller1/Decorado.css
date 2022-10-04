@@ -1,0 +1,165 @@
+.fondo1{
+    width: 35%;
+    height: 755px;
+    background: #08121c;
+}
+.fondo2{
+    width: 32%;
+    height: 400x;
+    background: #f8f8f8;
+    position:absolute;
+  		left: 543px;
+  		top:9px;
+}
+.fondo3{
+    width: 32%;
+    height: 149px;
+    background: #e0d648;
+    position:absolute;
+  		left: 543px;
+  		top:413px;
+}
+.fondo4{
+    width: 32%;
+    height: 553px;
+    background: #08121c;
+    position:absolute;
+  		left: 1037px;
+  		top:9px;
+}
+.fondo5{
+    width: 64.5%;
+    height: 200px;
+    background: #f8f8f8;
+    position:absolute;
+  		left: 543px;
+  		top:568px;
+}
+.fondo5 .datosreferidos{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 50;
+    margin-bottom: 50;
+    
+}
+.fondo5 .datosreferidos .titulos4{
+    color: #040404;
+    font-family: 'Trebuchet MS';
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 10;
+    margin-bottom: 10;
+}
+.fondo4 .datoscapa{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 10;
+    margin-bottom: 10;
+}
+.fondo4 .datoscapa .titulos3{
+    color: #ffffff;
+    font-family: 'Trebuchet MS';
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 10;
+    margin-bottom: 10;
+}
+.fondo3 .datoslaboral{
+    color: #010101;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 10;
+    margin-bottom: 10;
+}
+.fondo3 .datoslaboral .titulos2{
+    color: #000000;
+    font-family: 'Trebuchet MS';
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 10;
+    margin-bottom: 10;
+}
+.fondo2 .contenido{
+    width: 15%;
+    height: 50%;
+    position: absolute ;
+    top: 5%;
+    left: 17%;
+}
+.fondo2 .datosestudios{
+    color: #010101;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 10;
+    margin-bottom: 10;
+}
+.fondo2 .datosestudios .titulos1{
+    color: #000000;
+    font-family: 'Trebuchet MS';
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 10;
+    margin-bottom: 10;
+}
+.fondo2 .datosestudios .estudios{
+    color: #000000;
+    font-family: 'Alkalami',serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 10;
+    margin-bottom: 10;
+}
+.fondo1 .contenido{
+    width: 15%;
+    height: 50%;
+    position: absolute ;
+    top: 5%;
+    left: 17%;
+}
+.fondo1 .contenido .nombre{  
+    color: #E0E1DD;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+.fondo1 .contenido .profesion{
+    color: #E0E1DD;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 10;
+    margin-bottom: 10;
+}
+.fondo1 .datospersonales{
+    color: #E0E1DD;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 10;
+    margin-bottom: 10;
+}
+.fondo1 .datospersonales .titulos{
+    color: #E0E1DD;
+    font-family: 'Trebuchet MS';
+    font-weight: normal;
+    font-size: 23px;
+    margin-top: 10;
+    margin-bottom: 10;
+}
+.fondo1 .datospersonales .aboutme{
+    color: #E0E1DD;
+    font-family: 'Alkalami',serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 10;
+    margin-bottom: 10;
+}
+
+
+
