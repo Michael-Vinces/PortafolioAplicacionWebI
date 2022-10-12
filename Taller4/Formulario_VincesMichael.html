@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Decorado.css" />
+  </head>
+  <body>
+      <div class="titulo">
+        "SKALEMI" FORM<br><hr> 
+      </div>
+      <div class="fondo">
+        <div class="segundos"><br><br>
+            <h3>Convertir en segundos la hora actual</h3>       
+            <button onclick="time()">Hora Actual </button><br>
+            <span id="horaactual"></span><br><br>
+            <button onclick="transformar()">Convertir</button><br>           
+            <span id="horaensegundos"></span><br><hr>
+        </div>
+        <table>
+            <tr>
+                <h3>Área de un triángulo:</h3>
+                Ingrese la base : <br><input type="number" name="a" id="a" ><br>
+                Ingrese la altura: <br><input type="number" name="b" id="b">
+            </tr>
+        </table><br>
+        <input type="button" value="Calcular" onclick="Area();"><br>
+        <span id="area"></span><br>
+        <hr><h3>Raíz de un número:</h3> 
+        Ingrese el número a calcular la raiz : <br><input type="number" name="x" id="x" ><br><br>
+        <input type="button" value="Calcular"  onclick="RaizCuadrada();"><br>
+        <span id="redondeo"></span><br><hr>
+        <h3>Cadena de texto:</h3>
+        Ingrese una cadena de texto y muestre la longitud de la cadena : <br><input type="text" name="p" id="p" ><br>
+        <br><input type="button" value="Conteo de caracteres" onclick="Contador();"><br>
+        <span id="caracteres"></span><br><hr>
+        <input type="button" value="Navegador" onclick="Navegador();"><br>
+        <span id="nav"></span><br><hr>
+        <div>
+        <button onclick="IMPRIMIR();"> DESEA IMPRIMIR PAGINA</button><br>
+        </div>   
+    </div>
+    <script src="Script.js"></script>
+  </body>
+</html>
