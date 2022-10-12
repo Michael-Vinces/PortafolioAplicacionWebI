@@ -1,0 +1,65 @@
+body{
+    background: url(Imágenes/FondoMatematico.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.titulo{
+    width: 42%;
+    height: 100%;
+    position: absolute ;
+    top: 10%;
+    left: 30%;    
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.titulo .detalle{
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+.start{
+    width: 50%;
+    height: 100%;
+    position: absolute ;
+    top: 55%;
+    left: 42%;    
+}
+.start input{
+    width: 200px;
+    height: 70px;
+    font-size: 60px;   
+    border-radius: 10px;
+}
+.texto1{
+    width: 35%;
+    height: 100%;
+    position: absolute ;
+    top: 30%;
+    left: 33%;    
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+.ingreso{
+    width: 45%;
+    height: 100%;
+    position: absolute ;  
+    text-align: center;
+    top: -3%;
+    left: 27%;    
+    color: rgb(255, 255, 255);
+}
+.ingreso input{
+    width:190px;
+    height: 70px;
+    font-size: 40px;
+    top: 30%;
+    left: 10%;
+    
+    border-radius: 15px;
+}
