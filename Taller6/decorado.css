@@ -1,0 +1,47 @@
+body{
+    background: url(fondo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+.titulo{
+    width: 42%;
+    height: 100%;
+    position: absolute ;
+    top: 10%;
+    left: 30%;    
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.meses{
+    width: 400px;
+    position:absolute;
+  		left: 180px;
+  		top:250px;
+    background: #105252;
+    padding: 30px;
+    margin: auto;
+    margin-top: 1px;
+    border-radius: 10px;
+    font-family: "calibri";
+    color: rgb(255, 255, 255);
+}
+.producto{
+    width: 400px;
+    position:absolute;
+  		left: 880px;
+  		top:250px;
+    background: #321052;
+    padding: 30px;
+    margin: auto;
+    margin-top: 1px;
+    border-radius: 10px;
+    font-family: "calibri";
+    color: rgb(255, 255, 255);
+}
