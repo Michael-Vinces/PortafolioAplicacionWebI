@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SKALEMI</title>
+        <link href="Recursos/InicioSesión.css" rel="stylesheet" />
+        <link rel="icon" type="png" href="Recursos/Imágenes/LogoBlackSK.png">
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">}
+                <a href="#" class="navbar-brand">
+                <img src="Recursos/Imágenes/LogoGraySK.png" alt="..." width="180" height="55"></a>              
+                <ul class="menu">
+                    <li class="navbar-brand">
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li class="navbar-brand">
+                        <a href="#skalemi">Acerca de</a>
+                    </li>
+                    <li class="navbar-brand">
+                        <a href="#map">Ubicación</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="portada d-flex justify-content-center align-items-center flex-column">
+                <h1>"SKALEMI" INVENTORY</h1>
+                <p>Michael Vinces Andrade</p>
+                <a href="#login"><button class="btn btn-dark">Iniciar Sesión</button></a>
+            </div>
+        </header>
+        <section id="skalemi" class="infoInventory d-flex justify-content-center align-items-center  ">
+            <img src="Recursos/Imágenes/LogoWhiteSK.png" class="rounded float-start" width="650" height="400">
+       
+            <div class="flex-column">
+                <h1>"SKALEMI" INVENTORY</h1>
+                <h5><strong>¿Qué es?</strong></h5>
+                <p>Es un software donde se gestionará el inventario de equipos informáticos de la Universidad Laica Eloy Alfaro de Manabí 
+                    donde estará organizada por facultades. </p>
+                <a href="#uleam"><button class="btn btn-dark">Más Información | ULEAM</button></a>    
+            </div>
+        </section>
+        <section>
+            <div id="login" class="login d-flex justify-content-center align-items-center">
+                <form  method="POST" action="Bienvenida.html">
+                    <h2>Iniciar Sesión</h2>
+                    <div>   
+                        <input type="email" name="email" placeholder="Correo Electronico" required>
+                        <span></span>                        
+                    </div>
+                    <div>
+                        <input type="password" name="password" placeholder="Contraseña" required>
+                        <span></span>
+                    </div>                              
+                    <p>¿No tiene acceso? <a href="SolicitudLogin.html">Solicítelo.</a></p>                            
+                    <button id="log-in">Entrar</button>
+                </form>
+            </div>
+        </section>   
+        <section id="uleam" class="infoULEAM d-flex justify-content-center align-items-center ">
+            <div class="flex-column">
+                <h2>Universidad Laica Eloy Alfaro de Manabí</h2>
+                <h5><strong>"No dejes para mañana lo que puedes hacer hoy"</strong></h5>
+                <p>Es una universidad pública, de carácter laico creada en el año 1985 
+                    cuya sede principal se encuentra en Manta, Ecuador. Cuenta además 
+                    con sendos campus universitarios para sus 5 extensiones dentro de 
+                    la provincia de Manabí: Chone, Bahía de Caráquez, El Carmen, Flavio 
+                    Alfaro y Pedernales.</p>
+                    <p>La facultad con mayor capacidad dentro de la matriz es la de Ciencias 
+                        Médicas, contando con una infraestructura de 6 edificios y 3 auditorios.</p>
+                <a href="#map"><button class="btn btn-dark">Ubicación</button></a>    
+            </div>
+            <img src="Recursos/Imágenes/Icono-ULEAM.png" class="rounded float-start" alt="...">
+            </section>  
+        <section id="map" class="ubicacion ">
+            <div class="container mt-5 mb-5">
+                <h4><br>Aqui nos vemos:</h4>
+                <p>Ciudadela Universitaria. Calle 12, Vía San Mateo</p>
+                <div class="responsive-iframe ">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.2660084860836!2d-80.74788118537067!3d-0.9533629356221962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902be16a5ec848cd%3A0xa60ef7d90e068e64!2sUniversidad%20Laica%20Eloy%20Alfaro%20De%20Manabi!5e0!3m2!1ses!2sec!4v1665718342427!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"          
+                </div>
+            </div>
+        </section>
+    </body>   
+</html>
+<script src="JavaScript/InicioSesion.js"></script>
